@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Psychic Game</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+<body>
+    <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <h1 class="display-4">The Psychic Game</h1>
+                <p class="lead">Guess what letter I'm thinking of...</p>
+            </div>
+    </div>
+
+<div class="p-3 mb-2 bg-light text-dark">
+    <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-2">
+            <ul class="list-group">
+                <li class="list-group-item">Results :)</li>
+            </ul>
+        </div>
+        <div class="col-md-1"></div>
+    </div>
+    <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-2">
+            <ul class="list-group">
+                <li class="list-group-item list-group-item-success">Wins:</li>
+                <li class="list-group-item list-group-item-danger">Losses:</li>
+                <li class="list-group-item list-group-item-warning">Guesses Left:</li>
+                <li class="list-group-item list-group-item-info">Letters guest so far:</li>
+            </ul>
+        </div>        
+        <div class="col-md-2">
+            <ul class="list-group">
+                <li class="list-group-item"><span id="wins">0</span></li>
+                <li class="list-group-item"><span id="losses">0</span></li>
+                <li class="list-group-item"><span id="guesses-left">9</span></li>
+                <li class="list-group-item"><span id="guesses-so-far"></span></li>
+            </ul>
+        </div>
+        <div class="col-md-1"></div>
+        <div class="col-md-4">
+            <img class="rounded-circle" src="assets/images/psychic.jpg" style="width: 170px;" alt = "Psychic">
+        </div>
+        <div class="col-md-2"></div>
+    </div>
+</div>
+
+<script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+</html>
